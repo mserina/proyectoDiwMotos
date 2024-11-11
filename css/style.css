@@ -1,3 +1,6 @@
+/*------------------------------------------------------*/
+/*                    ALTA USUARIO                      */
+/*------------------------------------------------------*/
 #logo{
     width: 12rem;
 }
@@ -39,6 +42,7 @@ h2, h3{
     background-color: #bc0909ae;
     padding-top: 66px;
     padding-left: 2rem;
+    padding-right: 4rem;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 39rem;
@@ -98,4 +102,40 @@ footer {
 
 #imagenesPiePagina{
     width: 4rem;
+}
+
+
+/*------------------------------------------------------*/
+/*                    ALTA CLUB                         */
+/*------------------------------------------------------*/
+
+#labelNombre{
+    width: 100%;
+}
+
+#nombreClub{
+margin-left: 4rem;
+}
+
+#labelSitio{
+    width: 100%;
+}
+
+#sitio{
+    margin-left: 6rem;
+}
+
+#descripcion{
+    margin-left: 3rem;
+}
+
+
+#labelOpcionClub{
+    width: 19rem;
+    margin-left: 6rem;
+}
+
+#opcionClub{
+    width: 85%;
+    margin-left: 4rem;
 }
