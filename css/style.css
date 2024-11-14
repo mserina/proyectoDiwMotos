@@ -8,7 +8,7 @@
     width: 12rem;
     filter: drop-shadow(0 0 20px rgb(90, 244, 18));  /* Aplica una sombra difusa alrededor del texto dentro de la imagen */
     transition: box-shadow 0.3s ease; /* Añade una transición suave para el efecto cuando el logo cambia de estado */
-    margin-left: -72px;
+    margin-left: -286px;
     
 }
 
@@ -20,7 +20,7 @@
 #lupa{
     width: 2rem;
     margin-top: 11px;
-    margin-left: 8rem;
+    margin-left: 26rem;
 }
 
 #lupa:hover{
@@ -33,6 +33,7 @@
 
 .nav-link{
     color: #a87b05;
+    font-size: 27px;
 }
 
 .nav-link:hover{
@@ -58,7 +59,16 @@ body{
 }
 
 h2, h3{
-    color: chartreuse;
+    color: #a87b05;
+}
+
+#textoTituloRegistro{
+    background-color: #4C0A0A;
+    border-radius: 2rem;
+    width: 53%;
+    margin-left: 19rem;
+    padding: 1rem;
+    font-size: 2rem;
 }
 
 #seguimientoPagina{
@@ -73,22 +83,35 @@ h2, h3{
 
 /*-----------------CSS FORMULARIO----------------------*/
 
-.form-container {
+#formularioUsuario {
     background-color: #bc0909ae;
     padding-top: 66px;
     padding-left: 2rem;
-    padding-right: 4rem;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 39rem;
     height: 27rem;
     margin-bottom: 4rem;
 }
+
+#formularioClub {
+    background-color: #bc0909ae;
+    padding-top: 86px;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 46rem;
+    height: 27rem;
+    margin-bottom: 5rem;
+    padding-bottom: 25rem;
+}
+
 .form-container label {
     color: #FFCC00;
     font-weight: bold;
     width: 56%;
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 .form-container input {
     background-color: #FFF;
@@ -162,6 +185,7 @@ margin-left: 4rem;
 
 #botonRegistrar{
     margin-top: 1rem;
+    margin-left: 13rem;
 }
 
 #labelOpcionClub{
@@ -173,3 +197,13 @@ margin-left: 4rem;
     width: 85%;
     margin-left: 4rem;
 }
+
+/*------------------------------------------------------*/
+/*                    REGISTRO                         */
+/*------------------------------------------------------*/
+
+#opcionRegistro{
+    border-radius: 1rem;
+    width: 14rem;
+}
+
