@@ -1,26 +1,60 @@
 /*------------------------------------------------------*/
 /*                    ALTA USUARIO                      */
 /*------------------------------------------------------*/
+
+
+/*-----------------CSS CABEZERA----------------------*/
 #logo{
     width: 12rem;
+    filter: drop-shadow(0 0 20px rgb(90, 244, 18));  /* Aplica una sombra difusa alrededor del texto dentro de la imagen */
+    transition: box-shadow 0.3s ease; /* Añade una transición suave para el efecto cuando el logo cambia de estado */
+    margin-left: -72px;
+    
+}
+
+#logo:hover {
+    filter: drop-shadow(0 0 10px rgba(244, 253, 6, 0.865)); /* Al pasar el cursor, aumenta la intensidad del brillo */
+
 }
 
 #lupa{
-    width: 3rem;
-    transform: translate3d(10px, 17px, 10px);
+    width: 2rem;
+    margin-top: 11px;
+    margin-left: 8rem;
+}
+
+#lupa:hover{
+    filter: brightness(0.5); 
 }
 
 .header{
-   background-color: rgb(102, 8, 8); 
+   background-color: #370009; 
+}
+
+.nav-link{
+    color: #a87b05;
+}
+
+.nav-link:hover{
+    color: #825e05;
+}
+
+#opcionesNavegador{
+    margin-left: 3rem;
+    margin-right: -3rem;
 }
 
 
+/*-----------------CSS CUERPO----------------------*/
 body{
 
     background-image: url('../img/fondoPantalla.avif');
     background-size: cover; /* Para cubrir toda la pantalla */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
-    
+    /*Para la fuente de letra*/
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h2, h3{
@@ -35,6 +69,7 @@ h2, h3{
     padding-left: 8px;
     border-radius: 2rem;
 }
+
 
 /*-----------------CSS FORMULARIO----------------------*/
 
@@ -91,7 +126,7 @@ footer {
 
 #iconoIdioma{
     width: 2rem;
-    margin-right: 19rem;
+    margin-right: 25rem;
 }
 
 .footer .social-icons a {
@@ -125,10 +160,9 @@ margin-left: 4rem;
     margin-left: 6rem;
 }
 
-#descripcion{
-    margin-left: 3rem;
+#botonRegistrar{
+    margin-top: 1rem;
 }
-
 
 #labelOpcionClub{
     width: 19rem;
