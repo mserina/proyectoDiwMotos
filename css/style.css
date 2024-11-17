@@ -202,8 +202,74 @@ margin-left: 4rem;
 /*                    REGISTRO                         */
 /*------------------------------------------------------*/
 
-#opcionRegistro{
-    border-radius: 1rem;
+#imagenUsuario{
     width: 20rem;
+    border-radius: 1rem;
+    margin-left: -5rem;
+
 }
+
+#imagenUsuario:hover{
+    filter: brightness(0.5); 
+
+}
+
+#imagenClub{
+    width: 340px;
+    border-radius: 1rem;
+    margin-left: 3rem;
+}
+
+#imagenClub:hover{
+    filter: brightness(0.5); 
+}
+
+#fondoSeleccion{
+    background-color: #4c0a0ab7;
+    padding-left: 8rem;
+    border-radius: 2rem;
+    padding-right: 9rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+
+/*------------------------------------------------------*/
+/*                    Landing Page                         */
+/*------------------------------------------------------*/
+
+#titulo1{
+    color: yellow;
+    background-color: #4C0A0A;
+    width: 15rem;
+    margin-left: -18rem;
+    padding-left: 8px;
+    border-radius: 2rem;
+}
+
+#fondoTarjeta{
+    background-color: #4C0A0A;
+    border-radius: 1rem;
+}
+
+#cuerpoTarjeta{
+    text-align: center;
+    color: #a87b05;
+}
+
+#tituloTarjeta{
+    font-size: 29px;
+}
+
+#contenido{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#buton{
+    border-radius: 1rem;
+    background-color: #bf0f2a;
+}
+
+
 
