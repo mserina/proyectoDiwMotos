@@ -271,5 +271,13 @@ margin-left: 4rem;
     background-color: #bf0f2a;
 }
 
+#tamanoTarjeta{
+    width: 18rem;
+}
+
+#next-btn{
+    margin-right: 9rem;    
+}
+
 
 
